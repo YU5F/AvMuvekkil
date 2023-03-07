@@ -1,0 +1,126 @@
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe.config
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.pdb
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.GirisSayfasi.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.Properties.Resources.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.GenerateResource.cache
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.exe
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilGiris.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatAnaSayfa.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatBilgiGoruntuleme.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatGiris.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatListeleme.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilAnaSayfa.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilKayit.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe.config
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.pdb
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.AssemblyReference.cache
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.SuggestedBindingRedirects.cache
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatAnaSayfa.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatBilgiGoruntuleme.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatGiris.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatListeleme.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilAnaSayfa.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilKayit.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.GirisSayfasi.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilGiris.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.Properties.Resources.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.GenerateResource.cache
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CoreCompileInputs.cache
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.exe
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe.config
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.pdb
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.dll
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.dll
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.xml
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.xml
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.AssemblyReference.cache
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.SuggestedBindingRedirects.cache
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatAnaSayfa.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatBilgiGoruntuleme.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatGiris.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatListeleme.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilAnaSayfa.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilBilgiGuncelleme.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilKayit.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.GirisSayfasi.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilGiris.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.Properties.Resources.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.GenerateResource.cache
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CoreCompileInputs.cache
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CopyComplete
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.exe
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatKayit.resources
+C:\Users\sukud\OneDrive\Belgeler\GitHub\AvukatMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatBilgiGüncelleme.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe.config
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.pdb
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.dll
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.xml
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatAnaSayfa.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatBilgiGoruntuleme.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatBilgiGüncelleme.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatGiris.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatKayit.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatListeleme.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilAnaSayfa.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilBilgiGuncelleme.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilKayit.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.GirisSayfasi.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilGiris.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.Properties.Resources.resources
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CopyComplete
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.exe
+C:\Users\HP\Desktop\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil-main\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe.config
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.pdb
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.dll
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.xml
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatAnaSayfa.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatBilgiGoruntuleme.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatBilgiGüncelleme.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatGiris.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatKayit.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatListeleme.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilAnaSayfa.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilBilgiGuncelleme.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilKayit.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.GirisSayfasi.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilGiris.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.Properties.Resources.resources
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CopyComplete
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.exe
+C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
