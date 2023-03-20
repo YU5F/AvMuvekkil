@@ -124,11 +124,12 @@ C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\Avuk
 C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CopyComplete
 C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.exe
 C:\Users\HP\Desktop\osu\Yusuf Çetin - Timurhan Demir proje\Kaynak Kodları\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
-C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe
-C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.dll
 C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe.config
+C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.exe
+C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.pdb
 C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.dll
 C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.dll
 C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.EF6.dll
 C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.xml
@@ -155,4 +156,3 @@ C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\
 C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CopyComplete
 C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.exe
 C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
-C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\AvukatMuvekkil.pdb

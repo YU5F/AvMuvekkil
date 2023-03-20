@@ -59,6 +59,31 @@ namespace AvukatMuvekkil
             }
         }
 
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //binding socket
+                epLocal = new IPEndPoint(IPAddress.Parse(avip), Convert.ToInt32(avport));
+                sck.Bind(epLocal);
+                //connect to remote ip and port
+                epRemote = new IPEndPoint(IPAddress.Parse(muvip), Convert.ToInt32(muvport));
+                sck.Connect(epRemote);
+                //start listening on a specific port
+                buffer = new byte[1500];
+                sck.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref epRemote, new AsyncCallback(MessageCallBack), buffer);
+                btnSend.Enabled = true;
+                btnStart.Text = "Bağlandı";
+                btnStart.Enabled = false;
+                txtMessage.Focus();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
         private void btnKucult_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -68,24 +93,6 @@ namespace AvukatMuvekkil
         {
             sck = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
             sck.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
-
-            try
-            {
-                //binding socket
-                epLocal = new IPEndPoint(IPAddress.Parse(muvip), Convert.ToInt32(muvport));
-                sck.Bind(epLocal);
-                //connect to remote ip and port
-                epRemote = new IPEndPoint(IPAddress.Parse(avip), Convert.ToInt32(avport));
-                sck.Connect(epRemote);
-                //start listening on a specific port
-                buffer = new byte[1500];
-                sck.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref epRemote, new AsyncCallback(MessageCallBack), buffer);
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show(ex.ToString());
-            }
         }
         public void MessageCallBack(IAsyncResult aResult)
         {
