@@ -41,6 +41,7 @@
             this.btnCikis = new System.Windows.Forms.Button();
             this.btnBilgiGuncelle = new System.Windows.Forms.Button();
             this.btnDurum = new System.Windows.Forms.Button();
+            this.btnMuvekkilim = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcbAvukatResim)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,7 +115,7 @@
             this.lblTCKNO.BackColor = System.Drawing.Color.Transparent;
             this.lblTCKNO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTCKNO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.lblTCKNO.Location = new System.Drawing.Point(179, 229);
+            this.lblTCKNO.Location = new System.Drawing.Point(179, 227);
             this.lblTCKNO.Name = "lblTCKNO";
             this.lblTCKNO.Size = new System.Drawing.Size(166, 39);
             this.lblTCKNO.TabIndex = 12;
@@ -126,7 +127,7 @@
             this.lblTelefon.BackColor = System.Drawing.Color.Transparent;
             this.lblTelefon.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.lblTelefon.Location = new System.Drawing.Point(179, 295);
+            this.lblTelefon.Location = new System.Drawing.Point(179, 291);
             this.lblTelefon.Name = "lblTelefon";
             this.lblTelefon.Size = new System.Drawing.Size(160, 39);
             this.lblTelefon.TabIndex = 12;
@@ -138,7 +139,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.label1.Location = new System.Drawing.Point(179, 403);
+            this.label1.Location = new System.Drawing.Point(180, 403);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 39);
             this.label1.TabIndex = 12;
@@ -178,7 +179,7 @@
             this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnCikis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnCikis.Location = new System.Drawing.Point(231, 523);
+            this.btnCikis.Location = new System.Drawing.Point(153, 523);
             this.btnCikis.Name = "btnCikis";
             this.btnCikis.Size = new System.Drawing.Size(169, 77);
             this.btnCikis.TabIndex = 16;
@@ -192,7 +193,7 @@
             this.btnBilgiGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBilgiGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnBilgiGuncelle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnBilgiGuncelle.Location = new System.Drawing.Point(416, 523);
+            this.btnBilgiGuncelle.Location = new System.Drawing.Point(328, 523);
             this.btnBilgiGuncelle.Name = "btnBilgiGuncelle";
             this.btnBilgiGuncelle.Size = new System.Drawing.Size(169, 77);
             this.btnBilgiGuncelle.TabIndex = 17;
@@ -206,7 +207,7 @@
             this.btnDurum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDurum.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnDurum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnDurum.Location = new System.Drawing.Point(601, 523);
+            this.btnDurum.Location = new System.Drawing.Point(503, 523);
             this.btnDurum.Name = "btnDurum";
             this.btnDurum.Size = new System.Drawing.Size(169, 77);
             this.btnDurum.TabIndex = 18;
@@ -214,12 +215,27 @@
             this.btnDurum.UseVisualStyleBackColor = false;
             this.btnDurum.Click += new System.EventHandler(this.btnDurum_Click);
             // 
+            // btnMuvekkilim
+            // 
+            this.btnMuvekkilim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
+            this.btnMuvekkilim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMuvekkilim.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnMuvekkilim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
+            this.btnMuvekkilim.Location = new System.Drawing.Point(678, 523);
+            this.btnMuvekkilim.Name = "btnMuvekkilim";
+            this.btnMuvekkilim.Size = new System.Drawing.Size(169, 77);
+            this.btnMuvekkilim.TabIndex = 18;
+            this.btnMuvekkilim.Text = "Muvekkilerim";
+            this.btnMuvekkilim.UseVisualStyleBackColor = false;
+            this.btnMuvekkilim.Click += new System.EventHandler(this.btnMuvekkilim_Click);
+            // 
             // AvukatAnaSayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AvukatMuvekkil.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.Controls.Add(this.btnMuvekkilim);
             this.Controls.Add(this.btnDurum);
             this.Controls.Add(this.btnBilgiGuncelle);
             this.Controls.Add(this.btnCikis);
@@ -259,5 +275,6 @@
         private System.Windows.Forms.Button btnCikis;
         private System.Windows.Forms.Button btnBilgiGuncelle;
         private System.Windows.Forms.Button btnDurum;
+        private System.Windows.Forms.Button btnMuvekkilim;
     }
 }

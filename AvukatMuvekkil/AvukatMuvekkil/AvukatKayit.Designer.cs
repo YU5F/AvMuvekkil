@@ -247,6 +247,7 @@
             this.txtTCKNO.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtTCKNO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.txtTCKNO.Location = new System.Drawing.Point(436, 306);
+            this.txtTCKNO.MaxLength = 11;
             this.txtTCKNO.Multiline = true;
             this.txtTCKNO.Name = "txtTCKNO";
             this.txtTCKNO.Size = new System.Drawing.Size(337, 29);

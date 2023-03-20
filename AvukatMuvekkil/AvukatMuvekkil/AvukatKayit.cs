@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
 
 namespace AvukatMuvekkil
 {
@@ -28,15 +30,30 @@ namespace AvukatMuvekkil
         {
             Application.Exit();
         }
+        private string GetLocalIP()
+        {
+            IPHostEntry host;
+            host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (IPAddress ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    return ip.ToString();
+                }
+            }
+            return "127.0.0.1";
+        }
 
         private void btnKayitOl_Click(object sender, EventArgs e)
         {
-            string query = "Insert Into AvukatBilgileri (AvukatAdSoyad,AvukatSifre,AvukatEposta,AvukatTC) values (@ad,@sifre,@eposta,@TC)";
+            string query = "Insert Into AvukatBilgileri (AvukatAdSoyad,AvukatSifre,AvukatEposta,AvukatTC,AvIP,AvPort) values (@ad,@sifre,@eposta,@TC,@avip,@avport)";
             SQLiteCommand cmd = new SQLiteCommand(query, Baglan.con);
             cmd.Parameters.AddWithValue("@ad", txtAd.Text + " " + txtSoyad.Text);
             cmd.Parameters.AddWithValue("@TC", txtTCKNO.Text); 
             cmd.Parameters.AddWithValue("@eposta", txtEposta.Text);
             cmd.Parameters.AddWithValue("@sifre", txtSifre.Text);
+            cmd.Parameters.AddWithValue("@avip", GetLocalIP());
+            cmd.Parameters.AddWithValue("@avport", 5000);
 
             if (txtSifre.Text == txtSifreTekrar.Text)
             {

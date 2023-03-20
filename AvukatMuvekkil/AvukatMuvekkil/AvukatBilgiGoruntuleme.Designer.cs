@@ -46,7 +46,7 @@
             this.btnTut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTut.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnTut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnTut.Location = new System.Drawing.Point(542, 504);
+            this.btnTut.Location = new System.Drawing.Point(503, 504);
             this.btnTut.Name = "btnTut";
             this.btnTut.Size = new System.Drawing.Size(169, 77);
             this.btnTut.TabIndex = 27;
@@ -135,12 +135,13 @@
             this.btnMesaj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMesaj.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnMesaj.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnMesaj.Location = new System.Drawing.Point(289, 504);
+            this.btnMesaj.Location = new System.Drawing.Point(328, 504);
             this.btnMesaj.Name = "btnMesaj";
             this.btnMesaj.Size = new System.Drawing.Size(169, 77);
             this.btnMesaj.TabIndex = 27;
             this.btnMesaj.Text = "Mesaj Gönder";
             this.btnMesaj.UseVisualStyleBackColor = false;
+            this.btnMesaj.Click += new System.EventHandler(this.btnMesaj_Click);
             // 
             // btnGeri
             // 

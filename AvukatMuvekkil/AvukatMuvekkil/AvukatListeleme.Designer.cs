@@ -35,7 +35,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtTCKNO = new System.Windows.Forms.TextBox();
             this.btnDetaylar = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgwAvukatlar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,7 +99,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.label1.Location = new System.Drawing.Point(26, 63);
+            this.label1.Location = new System.Drawing.Point(14, 63);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 29);
             this.label1.TabIndex = 33;
@@ -112,7 +111,7 @@
             this.txtTCKNO.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTCKNO.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTCKNO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(76)))), ((int)(((byte)(75)))));
-            this.txtTCKNO.Location = new System.Drawing.Point(117, 63);
+            this.txtTCKNO.Location = new System.Drawing.Point(87, 64);
             this.txtTCKNO.Multiline = true;
             this.txtTCKNO.Name = "txtTCKNO";
             this.txtTCKNO.Size = new System.Drawing.Size(246, 28);
@@ -132,23 +131,12 @@
             this.btnDetaylar.UseVisualStyleBackColor = false;
             this.btnDetaylar.Click += new System.EventHandler(this.btnDetaylar_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(156, 21);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 36;
-            this.label2.Text = "label2";
-            this.label2.Visible = false;
-            // 
             // AvukatListeleme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AvukatMuvekkil.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(1000, 650);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnDetaylar);
             this.Controls.Add(this.txtTCKNO);
             this.Controls.Add(this.label1);
@@ -175,6 +163,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtTCKNO;
         private System.Windows.Forms.Button btnDetaylar;
-        private System.Windows.Forms.Label label2;
     }
 }

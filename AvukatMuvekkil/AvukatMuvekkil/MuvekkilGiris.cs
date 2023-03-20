@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -28,6 +29,7 @@ namespace AvukatMuvekkil
         {
             Application.Exit();
         }
+        public static int muvid;
 
         private void btnGirisYap_Click(object sender, EventArgs e)
         {
@@ -56,6 +58,12 @@ namespace AvukatMuvekkil
                     MuvekkilAnaSayfa fr = new MuvekkilAnaSayfa();
                     fr.kulAd = txtEposta.Text;
                     fr.Show();
+
+                    SQLiteDataReader dr = cmd.ExecuteReader();
+                    while (dr.Read())
+                    {
+                        muvid = Convert.ToInt32(dr["Id"]);
+                    }
 
                     this.Close();
                 }

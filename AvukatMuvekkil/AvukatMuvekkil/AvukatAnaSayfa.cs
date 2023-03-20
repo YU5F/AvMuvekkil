@@ -77,6 +77,12 @@ namespace AvukatMuvekkil
             fr.Show();
             this.Close();
         }
+
+        private void btnMuvekkilim_Click(object sender, EventArgs e)
+        {
+            MuvekkilListeleme fr = new MuvekkilListeleme();
+            fr.ShowDialog();
+        }
     }
  }
 

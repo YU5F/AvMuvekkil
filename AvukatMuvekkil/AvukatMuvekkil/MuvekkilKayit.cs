@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
 
 namespace AvukatMuvekkil
 {
@@ -29,13 +31,29 @@ namespace AvukatMuvekkil
             this.WindowState = FormWindowState.Minimized;
         }
 
+        private string GetLocalIP()
+        {
+            IPHostEntry host;
+            host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (IPAddress ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    return ip.ToString();
+                }
+            }
+            return "127.0.0.1";
+        }
+
         private void btnKayitOl_Click(object sender, EventArgs e)
         {
-            string query = "Insert Into MuvekkilBilgileri (MuvekkilAdSoyad,MuvekkilSifre,MuvekkilEposta) values (@ad,@sifre,@eposta)";
+            string query = "Insert Into MuvekkilBilgileri (MuvekkilAdSoyad,MuvekkilSifre,MuvekkilEposta,MuvIP,MuvPort) values (@ad,@sifre,@eposta,@muvip,@muvport)";
             SQLiteCommand cmd = new SQLiteCommand(query, Baglan.con);
             cmd.Parameters.AddWithValue("@ad", txtAd.Text + " " + txtSoyad.Text);
             cmd.Parameters.AddWithValue("@eposta", txtEposta.Text);
             cmd.Parameters.AddWithValue("@sifre", txtSifre.Text);
+            cmd.Parameters.AddWithValue("@muvip", GetLocalIP());
+            cmd.Parameters.AddWithValue("@muvport", 4000);
          
             if (txtSifre.Text == txtSifreTekrar.Text)
             {

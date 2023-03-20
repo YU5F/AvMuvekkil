@@ -29,6 +29,7 @@ namespace AvukatMuvekkil
         {
             this.WindowState = FormWindowState.Minimized;
         }
+        public static int avid;
 
         private void AvukatGiris_Load(object sender, EventArgs e)
         {
@@ -63,6 +64,12 @@ namespace AvukatMuvekkil
                     fr.TC = txtTCKNO.Text;
                     fr.Show();
 
+                    SQLiteDataReader dr = cmd.ExecuteReader();
+                    while (dr.Read())
+                    {
+                        avid = Convert.ToInt32(dr["Id"]);
+                    }
+
                     this.Close();
                 }
                 else
@@ -77,7 +84,6 @@ namespace AvukatMuvekkil
         {
             AvukatKayit fr = new AvukatKayit();
             fr.Show();
-            this.Hide();
         }
 
         private void btnGeri_Click(object sender, EventArgs e)

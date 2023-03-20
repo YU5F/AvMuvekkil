@@ -139,7 +139,7 @@
             this.btnGirisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGirisYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnGirisYap.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnGirisYap.Location = new System.Drawing.Point(301, 461);
+            this.btnGirisYap.Location = new System.Drawing.Point(328, 461);
             this.btnGirisYap.Name = "btnGirisYap";
             this.btnGirisYap.Size = new System.Drawing.Size(169, 77);
             this.btnGirisYap.TabIndex = 7;
@@ -153,7 +153,7 @@
             this.btnKayitOl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKayitOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnKayitOl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnKayitOl.Location = new System.Drawing.Point(531, 461);
+            this.btnKayitOl.Location = new System.Drawing.Point(503, 461);
             this.btnKayitOl.Name = "btnKayitOl";
             this.btnKayitOl.Size = new System.Drawing.Size(169, 77);
             this.btnKayitOl.TabIndex = 7;

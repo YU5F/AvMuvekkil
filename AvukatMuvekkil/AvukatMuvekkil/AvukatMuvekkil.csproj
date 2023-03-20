@@ -108,6 +108,12 @@
     <Compile Include="GirisSayfasi.Designer.cs">
       <DependentUpon>GirisSayfasi.cs</DependentUpon>
     </Compile>
+    <Compile Include="MesajlasmaSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MesajlasmaSayfasi.Designer.cs">
+      <DependentUpon>MesajlasmaSayfasi.cs</DependentUpon>
+    </Compile>
     <Compile Include="MuvekkilAnaSayfa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,12 @@
     <Compile Include="MuvekkilKayit.Designer.cs">
       <DependentUpon>MuvekkilKayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="MuvekkilListeleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MuvekkilListeleme.Designer.cs">
+      <DependentUpon>MuvekkilListeleme.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AvukatAnaSayfa.resx">
@@ -152,6 +164,9 @@
     <EmbeddedResource Include="AvukatListeleme.resx">
       <DependentUpon>AvukatListeleme.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MesajlasmaSayfasi.resx">
+      <DependentUpon>MesajlasmaSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MuvekkilAnaSayfa.resx">
       <DependentUpon>MuvekkilAnaSayfa.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,6 +181,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MuvekkilGiris.resx">
       <DependentUpon>MuvekkilGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuvekkilListeleme.resx">
+      <DependentUpon>MuvekkilListeleme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -217,4 +235,8 @@
   </Target>
   <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
   <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
+if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+  </PropertyGroup>
 </Project>

@@ -11,13 +11,11 @@ using System.Windows.Forms;
 
 namespace AvukatMuvekkil
 {
-    public partial class AvukatBilgiGoruntuleme : Form
+    public partial class MuvekkilListeleme : Form
     {
-        public AvukatBilgiGoruntuleme()
+        public MuvekkilListeleme()
         {
             InitializeComponent();
-
-            StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnKapat_Click(object sender, EventArgs e)
@@ -29,38 +27,30 @@ namespace AvukatMuvekkil
         {
             this.WindowState = FormWindowState.Minimized;
         }
-        public string secilen;
-        private void AvukatBilgiGoruntuleme_Load(object sender, EventArgs e)
-        {
-            AvukatListeleme fr = new AvukatListeleme();
-            
-            string query = "SELECT AvukatAdSoyad,AvukatTelefon,AvukatEposta FROM AvukatBilgileri where AvukatEposta=@p1";
-            SQLiteCommand komut = new SQLiteCommand(query, Baglan.con);
-            komut.Parameters.AddWithValue("@p1", secilen);
-            Baglan.con.Open();
-            SQLiteDataReader dr = komut.ExecuteReader();
-
-            while (dr.Read())
-            {
-                lblIsimSoyisim.Text = dr[0].ToString();
-                lblMail.Text = dr[2].ToString();
-                lblTelefon.Text += dr[1].ToString();
-            }
-            Baglan.con.Close();
-        }
 
         private void btnGeri_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
         }
 
-        private void btnMesaj_Click(object sender, EventArgs e)
+        private void MuvekkilListeleme_Load(object sender, EventArgs e)
+        {
+            string q = "Select Id, MuvekkilAdSoyad, MuvekkilTelefon, MuvekkilEposta from MuvekkilBilgileri";
+            SQLiteCommand cmd = new SQLiteCommand(q, Baglan.con);
+            DataTable dt = new DataTable();
+            SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);
+            adapter.Fill(dt);
+
+            dgwMuvekkiller.DataSource= dt;
+        }
+
+        private void btnMesajGonder_Click(object sender, EventArgs e)
         {
             MesajlasmaSayfasi fr = new MesajlasmaSayfasi();
             SQLiteCommand muvcmd = new SQLiteCommand("Select MuvIP, MuvPort from MuvekkilBilgileri where Id = @id", Baglan.con);
-            SQLiteCommand avcmd = new SQLiteCommand("Select AvIP, AvPort from AvukatBilgileri where AvukatEposta=@p1", Baglan.con);
-            avcmd.Parameters.AddWithValue("@p1", secilen);
-            muvcmd.Parameters.AddWithValue("@id", AvukatMuvekkil.MuvekkilGiris.muvid);
+            SQLiteCommand avcmd = new SQLiteCommand("Select AvIP, AvPort from AvukatBilgileri where Id=@p1", Baglan.con);
+            avcmd.Parameters.AddWithValue("@p1", AvukatMuvekkil.AvukatGiris.avid);
+            muvcmd.Parameters.AddWithValue("@id", dgwMuvekkiller.CurrentRow.Cells["Id"].Value);
             Baglan.con.Open();
             SQLiteDataReader dr = muvcmd.ExecuteReader();
             while (dr.Read())
@@ -71,12 +61,13 @@ namespace AvukatMuvekkil
             Baglan.con.Close();
             Baglan.con.Open();
             SQLiteDataReader avdr = avcmd.ExecuteReader();
-            while(avdr.Read())
+            while (avdr.Read())
             {
                 fr.avip = avdr["AvIP"].ToString();
                 fr.avport = Convert.ToInt32(avdr["AvPort"]);
             }
             Baglan.con.Close();
+
             fr.Show();
         }
     }

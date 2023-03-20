@@ -190,7 +190,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.label6.Location = new System.Drawing.Point(227, 402);
+            this.label6.Location = new System.Drawing.Point(251, 403);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(140, 29);
             this.label6.TabIndex = 8;
@@ -262,7 +262,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MuvekkilKayit";
             this.Text = "MuvekkilGiris";
-            //this.Load += new System.EventHandler(this.MuvekkilKayit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

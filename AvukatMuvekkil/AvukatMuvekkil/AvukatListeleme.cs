@@ -38,13 +38,10 @@ namespace AvukatMuvekkil
 
             DataTable dt = new DataTable();
 
-            SQLiteDataAdapter da = new SQLiteDataAdapter(query, Baglan.con);
+            SQLiteDataAdapter da = new SQLiteDataAdapter(command);
             da.Fill(dt);
 
             dgwAvukatlar.DataSource = dt;
-
-            MuvekkilAnaSayfa fr = new MuvekkilAnaSayfa();
-            fr.mail = label2.Text;
         }
 
         private void btnGeri_Click(object sender, EventArgs e)

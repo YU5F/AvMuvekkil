@@ -75,9 +75,9 @@
             // 
             this.btnDosyalar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnDosyalar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDosyalar.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnDosyalar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDosyalar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnDosyalar.Location = new System.Drawing.Point(538, 441);
+            this.btnDosyalar.Location = new System.Drawing.Point(503, 441);
             this.btnDosyalar.Name = "btnDosyalar";
             this.btnDosyalar.Size = new System.Drawing.Size(432, 92);
             this.btnDosyalar.TabIndex = 13;
@@ -88,9 +88,9 @@
             // 
             this.btnAvukatlar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnAvukatlar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAvukatlar.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAvukatlar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAvukatlar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnAvukatlar.Location = new System.Drawing.Point(30, 441);
+            this.btnAvukatlar.Location = new System.Drawing.Point(65, 441);
             this.btnAvukatlar.Name = "btnAvukatlar";
             this.btnAvukatlar.Size = new System.Drawing.Size(432, 92);
             this.btnAvukatlar.TabIndex = 14;
@@ -136,9 +136,9 @@
             // 
             this.btnCikisYap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnCikisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCikisYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCikisYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnCikisYap.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnCikisYap.Location = new System.Drawing.Point(30, 546);
+            this.btnCikisYap.Location = new System.Drawing.Point(65, 539);
             this.btnCikisYap.Name = "btnCikisYap";
             this.btnCikisYap.Size = new System.Drawing.Size(432, 92);
             this.btnCikisYap.TabIndex = 13;
@@ -150,9 +150,9 @@
             // 
             this.btnGuncelleme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnGuncelleme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuncelleme.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGuncelleme.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGuncelleme.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnGuncelleme.Location = new System.Drawing.Point(538, 546);
+            this.btnGuncelleme.Location = new System.Drawing.Point(503, 539);
             this.btnGuncelleme.Name = "btnGuncelleme";
             this.btnGuncelleme.Size = new System.Drawing.Size(432, 92);
             this.btnGuncelleme.TabIndex = 35;
