@@ -64,7 +64,7 @@ namespace AvukatMuvekkil
                     {
                         muvid = Convert.ToInt32(dr["Id"]);
                         AvukatBilgiGoruntuleme.senderKey = dr["MuvekkilKey"].ToString();
-                        AvukatBilgiGoruntuleme.senderName = dr["MuvekkilAdSoyad"].ToString();
+                        AvukatBilgiGoruntuleme.muvKey = dr["MuvekkilKey"].ToString();
                     }
 
                     this.Close();

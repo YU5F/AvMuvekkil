@@ -52,6 +52,7 @@ namespace AvukatMuvekkil
         private async void btnSend_Click(object sender, EventArgs e)
         {
             await MakePostRequest(senderkey, receiverkey, txtMessage.Text);
+            txtMessage.Text = "";
         }
 
         private void btnKucult_Click(object sender, EventArgs e)

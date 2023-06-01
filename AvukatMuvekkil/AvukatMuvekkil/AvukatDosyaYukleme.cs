@@ -36,18 +36,26 @@ namespace AvukatMuvekkil
 
         private void btnKyt_Click(object sender, EventArgs e)
         {
-            folderBrowserDialog1.ShowDialog();
-            kayıtYol = folderBrowserDialog1.SelectedPath.ToString();
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+            {
+                kayıtYol = folderBrowserDialog1.SelectedPath.ToString();
 
-            File.Copy(dosyaYol2, kayıtYol + "\\" + dosyaYol);
-            MessageBox.Show("Dosyanız kaydedildi.");
+                if (kayıtYol != null)
+                {
+                    File.Copy(dosyaYol2, kayıtYol + "\\" + dosyaYol);
+                    MessageBox.Show("Dosyanız Kaydedildi");
+                }
+                else
+                {
+                    // Handle the case where no folder was selected
+                    MessageBox.Show("Lütfen Bir yol seçiniz.");
+                }
+            }
         }
-        private void Dosya()
-        {
-            
 
-            File.Copy(dosyaYol2, kayıtYol + "\\" + dosyaYol);
-            MessageBox.Show("Dosyanız kaydedildi.");
+        private void btnGeri_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

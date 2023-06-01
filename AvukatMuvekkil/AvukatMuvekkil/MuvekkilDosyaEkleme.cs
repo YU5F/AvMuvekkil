@@ -43,5 +43,10 @@ namespace AvukatMuvekkil
             File.Copy(dosyaYol2, kayıtYol + "\\" + dosyaYol);
             MessageBox.Show("Dosyanız kaydedildi.");
         }
+
+        private void btnGeri_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

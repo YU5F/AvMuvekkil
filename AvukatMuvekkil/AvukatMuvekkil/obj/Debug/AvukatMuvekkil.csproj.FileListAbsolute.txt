@@ -226,3 +226,7 @@ C:\Users\HP\Desktop\Uygulama\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvek
 C:\Users\HP\Desktop\Uygulama\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
 C:\Users\HP\Desktop\Uygulama\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\Newtonsoft.Json.dll
 C:\Users\HP\Desktop\Uygulama\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatDosyaYukleme.resources
+C:\Users\HP\Documents\GitHub\AvMuvekkil\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilDosyaEkleme.resources

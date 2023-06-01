@@ -69,7 +69,6 @@ namespace AvukatMuvekkil
                     {
                         avid = Convert.ToInt32(dr["Id"]);
                         MuvekkilListeleme.senderKey = dr["AvukatKey"].ToString();
-                        MuvekkilListeleme.senderName = dr["AvukatAdSoyad"].ToString();
                     }
 
                     this.Close();

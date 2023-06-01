@@ -52,6 +52,7 @@
             this.btnTut.TabIndex = 27;
             this.btnTut.Text = "Tut";
             this.btnTut.UseVisualStyleBackColor = false;
+            this.btnTut.Click += new System.EventHandler(this.btnTut_Click);
             // 
             // lblMail
             // 

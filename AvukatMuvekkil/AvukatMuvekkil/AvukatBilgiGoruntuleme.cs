@@ -31,12 +31,13 @@ namespace AvukatMuvekkil
         }
         public string secilen;
         public static string senderKey;
-        public static string senderName;
+        public static string muvKey;
+        public static string avKey;
         private void AvukatBilgiGoruntuleme_Load(object sender, EventArgs e)
         {
             AvukatListeleme fr = new AvukatListeleme();
             
-            string query = "SELECT AvukatAdSoyad,AvukatTelefon,AvukatEposta FROM AvukatBilgileri where AvukatEposta=@p1";
+            string query = "SELECT AvukatAdSoyad,AvukatTelefon,AvukatEposta,AvukatKey FROM AvukatBilgileri where AvukatEposta=@p1";
             SQLiteCommand komut = new SQLiteCommand(query, Baglan.con);
             komut.Parameters.AddWithValue("@p1", secilen);
             Baglan.con.Open();
@@ -47,6 +48,7 @@ namespace AvukatMuvekkil
                 lblIsimSoyisim.Text = dr[0].ToString();
                 lblMail.Text = dr[2].ToString();
                 lblTelefon.Text += dr[1].ToString();
+                avKey= dr[3].ToString();
             }
             Baglan.con.Close();
         }
@@ -55,7 +57,6 @@ namespace AvukatMuvekkil
         {
             this.Hide();
         }
-
         private void btnMesaj_Click(object sender, EventArgs e)
         {
             MesajlasmaSayfasi fr = new MesajlasmaSayfasi();
@@ -66,11 +67,47 @@ namespace AvukatMuvekkil
             while(avdr.Read())
             {
                 fr.senderkey = senderKey;
-                fr.receiverkey = avdr["AvukatKey"].ToString();
-                fr.senderName = senderName;
+                fr.receiverkey = avKey;
             }
             Baglan.con.Close();
             fr.Show();
+        }
+
+        private void btnTut_Click(object sender, EventArgs e)
+        {
+            using (SQLiteCommand command = new SQLiteCommand("SELECT COUNT(*) FROM SozlesmeBilgileri WHERE Muvekkil = @muvkey AND Avukat = @avkey", Baglan.con))
+            {
+                // Set the parameter values
+                command.Parameters.AddWithValue("@muvkey", muvKey);
+                command.Parameters.AddWithValue("@avkey", avKey);
+
+                Baglan.con.Open();
+
+                // Execute the query and get the count
+                int count = Convert.ToInt32(command.ExecuteScalar());
+
+                if (count == 0)
+                {
+                    // Record doesn't exist, insert a new record
+                    using (SQLiteCommand insertCommand = new SQLiteCommand("INSERT INTO SozlesmeBilgileri (Muvekkil, Avukat, SozlesmeDurumu, SozlesmeTarihi) VALUES (@muvkey, @avkey, @durum, @tarih)", Baglan.con))
+                    {
+                        // Set the parameter values
+                        insertCommand.Parameters.AddWithValue("@muvkey", muvKey);
+                        insertCommand.Parameters.AddWithValue("@avkey", avKey);
+                        insertCommand.Parameters.AddWithValue("@durum", "Bekleniyor");
+                        insertCommand.Parameters.AddWithValue("@tarih", DateTime.Now.ToString());
+
+                        // Execute the insert command
+                        insertCommand.ExecuteNonQuery();
+                        MessageBox.Show("İstek gönderildi");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("İsteği zaten gönderdiniz");
+                }
+                Baglan.con.Close();
+            }
         }
     }
 }
